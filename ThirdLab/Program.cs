@@ -13,25 +13,9 @@ namespace CSThirdLab
         {
             new Rectangle()
             {
-                Name = "Квадрат #1",
-                Color = System.Drawing.Color.DarkRed,
-                Position = new System.Drawing.Point(30,30),
-                Width = 50, Height = 50
-            },
-
-            new Rectangle()
-            {
-                Name = "Квадрат #2",
-                Color = System.Drawing.Color.Green,
-                Position = new System.Drawing.Point(60,100),
-                Width = 100, Height = 100
-            },
-
-            new Rectangle()
-            {
-                Name = "Квадрат #3",
-                Color = System.Drawing.Color.Blue,
-                Position = new System.Drawing.Point(200,200),
+                Name = "Квадрат",
+                Color = System.Drawing.Color.Black,
+                Position = new System.Drawing.Point(50,200),
                 Width = 100, Height = 50
             },
 
@@ -39,7 +23,7 @@ namespace CSThirdLab
             {
                 Name = "Круг",
                 Color = System.Drawing.Color.Black,
-                Position = new System.Drawing.Point(400, 300),
+                Position = new System.Drawing.Point(70, 100),
                 radius = 50
             },
 
@@ -47,7 +31,7 @@ namespace CSThirdLab
             {
                 Name = "Треугольник",
                 Color = System.Drawing.Color.Black,
-                Position = new System.Drawing.Point (500, 50),
+                Position = new System.Drawing.Point (200, 100),
                 Height = 50,
                 Base = 50
             },
@@ -56,10 +40,57 @@ namespace CSThirdLab
             {
                 Name = "Ромб",
                 Color = System.Drawing.Color.Black,
-                Position = new System.Drawing.Point (500, 200),
+                Position = new System.Drawing.Point (200, 200),
                 FirstDiagonal = 50,
                 SecondDiagonal = 40
+            }, 
+
+            new Square()
+            {
+                Name = "Квадрат",
+                Color = System.Drawing.Color.Black,
+                Position = new System.Drawing.Point (300, 100),
+                side = 50
+            },
+
+            new Parallelogram()
+            {
+                Name = "Параллелограмм",
+                Color = System.Drawing.Color.Black,
+                Position = new System.Drawing.Point (300, 200),
+                Base = 50,
+                Height = 50
+            }, 
+            
+            new RegularPentagon()
+            {
+                Name = "Правильный пятиугольник",
+                Color = System.Drawing.Color.Black,
+                Position = new System.Drawing.Point (100, 350),
+                Side = 50,
+                Radius = 50
+            },
+
+            new RegularDecagon()
+            {
+                Name = "Правильный десятиугольник",
+                Color = System.Drawing.Color.Black,
+                Position = new System.Drawing.Point (250, 350),
+                Side = 50,
+                Radius = 50
+            },
+
+            new Trapezoid()
+            {
+                Name = "Трапеция",
+                Color = System.Drawing.Color.Black,
+                Position = new System.Drawing.Point (350, 350),
+                FirstBase = 50,
+                SecondBase = 30,
+                Height = 50
             }
+
+
         };
 
         static void Main(string[] args)
