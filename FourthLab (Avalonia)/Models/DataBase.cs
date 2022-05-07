@@ -12,8 +12,8 @@ namespace Test.Models
 {
     public class DataBase : INotifyPropertyChanged
     {
-        private const string Url = "https://hzwevzijtqjpdbwdyfhi.supabase.co";
-        private const string Key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imh6d2V2emlqdHFqcGRid2R5ZmhpIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NDk1ODI4MDQsImV4cCI6MTk2NTE1ODgwNH0.NJ32iv6UgScTwokYDApRxVSJMG1BoqDsYv_qWEqSkRI";
+        private const string Url = "link";
+        private const string Key = "key";
 
         public List<User> Users { get; set; }
         public List<HistoryChat> HistoryChats { get; set; } 
